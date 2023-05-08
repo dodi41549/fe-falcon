@@ -1,7 +1,7 @@
 runtime: php74
 
 handlers:
-- url: /backend.php
+- url: /index.php
   script: auto
 
 - url: /.*
