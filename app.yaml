@@ -1,0 +1,9 @@
+runtime: php74
+
+handlers:
+- url: /backend.php
+  script: auto
+
+- url: /.*
+  static_files: index.html
+  upload: index.html
